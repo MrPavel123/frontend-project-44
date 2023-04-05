@@ -8,3 +8,7 @@ lint:
 	npx eslint .
 brain-even:
 	node bin/brain-even.js	
+lintFix:
+	npx eslint . --fix		
+brain-calc:
+	node bin/brain-calc.js	

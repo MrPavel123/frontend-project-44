@@ -1,4 +1,4 @@
-import { getRandomIntInclusive } from '../util.js';
+import getRandomIntInclusive from '../util.js';
 import gameEven from '../index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -11,7 +11,6 @@ const round = () => {
   return [question, correctAnswer];
 };
 const evenGame = () => {
-    gameEven(description, round);
-  };
-  export default evenGame;
-  
+  gameEven(description, round);
+};
+export default evenGame;

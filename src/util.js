@@ -1,5 +1,5 @@
-export function getRandomIntInclusive(min, max) {
-    min = Math.ceil(min)
-    max = Math.floor(max); 
-    return Math.floor(Math.random() * (max - min + 1) + min);
-    };
+export default function getRandomIntInclusive(min, max) {
+  const minimal = Math.ceil(min);
+  const maximal = Math.floor(max);
+  return Math.floor(Math.random() * (maximal - minimal + 1) + minimal);
+}
