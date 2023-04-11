@@ -1,5 +1,6 @@
 import getRandomIntInclusive from '../util.js';
 import gameEven from '../index.js';
+
 const descriptionGame = 'What is the result of the expression? ';
 const operators = ['+', '-', '*'];
 
